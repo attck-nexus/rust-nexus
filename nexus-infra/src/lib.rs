@@ -23,7 +23,8 @@ pub mod proto {
 }
 
 // Common types and utilities
-pub use config::{NexusConfig, CloudflareConfig, LetsEncryptConfig, OriginCertConfig};
+pub use config::{NexusConfig, CloudflareConfig, LetsEncryptConfig, OriginCertConfig, 
+                 GrpcServerConfig, DomainConfig, ChallengeType, SubdomainPattern};
 pub use cloudflare::CloudflareManager;
 pub use letsencrypt::CertificateManager;
 pub use grpc_client::GrpcClient;
